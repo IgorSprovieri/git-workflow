@@ -84,7 +84,7 @@ git push -u origin development
 
 ### Explanation
 
-git ignore serves to hide sensitive or unnecessary files
+Git ignore serves to hide sensitive or unnecessary files
 
 ### Steps
 
@@ -104,4 +104,30 @@ secret.txt
 
 ```
 secret.txt
+```
+
+## Add a final version on main
+
+### Explanation
+
+If you have a stable version of your application, you can clone the development branch to the main
+
+### Steps
+
+1. Change to main branch:
+
+```
+git checkout main
+```
+
+2. Clone the development branch:
+
+```
+git merge development
+```
+
+3. Push your main branch:
+
+```
+git push -u origin main
 ```
