@@ -88,6 +88,32 @@ git ignore serves to hide sensitive or unnecessary files
 
 ### Steps
 
+1. Create a example secret txt:
+
+```
+secret.txt
+```
+
+2. Open the .gitignore file:
+
+```
+/.gitignore
+```
+
+3. Add the files that you want to ignore:
+
+```
+secret.txt
+```
+
+## Git ignore
+
+### Explanation
+
+git ignore serves to hide sensitive or unnecessary files
+
+### Steps
+
 1. Open the .gitignore file:
 
 ```
