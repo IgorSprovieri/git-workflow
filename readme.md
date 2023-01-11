@@ -44,6 +44,12 @@ git push -u origin main
 
 ## Create a development branch
 
+### Explanation
+
+You can create a development branch to develop your application and the final versions you commit to main branch
+
+### Steps
+
 1. Create your development branch:
 
 ```
@@ -72,4 +78,24 @@ git commit -m "initial commit"
 
 ```
 git push -u origin development
+```
+
+## Git ignore
+
+### Explanation
+
+git ignore serves to hide sensitive or unnecessary files
+
+### Steps
+
+1. Open the .gitignore file:
+
+```
+/.gitignore
+```
+
+2. Add the files that you want ignore:
+
+```
+secret.txt
 ```
